@@ -1,6 +1,6 @@
 # Capix Software Engineer Take-home Challenge
 
-Welcome to the Capix take-home challenge! We’re excited to see what you can build and hope you enjoy the process. In this exercise, you’ll create a full-stack web app that helps users quickly understand the content of files in a directory. You’ll have till **12 PM EST on Tuesday, Oct 22nd** to complete this, and we’re here to support you if any questions come up—just reach out to us at [hiring@capix.ai](mailto:hiring@capix.ai), we will do our best to respond to you promptly.
+Welcome to the Capix take-home challenge! We’re excited to see what you can build and hope you enjoy the process. In this exercise, you’ll create a full-stack web app that helps users quickly understand the content of files in a directory. You’ll have till **12 PM EST on Tuesday, Oct 22nd** to complete this, and we’re here to support you if any questions come up—just reach out to us at [tech@capix.ai](mailto:tech@capix.ai), we will do our best to respond to you promptly.
 
 ## **Project Overview**
 
@@ -54,7 +54,7 @@ We want to give you insight into how we’ll review your submission:
 ## **Important Notes**
 
 - **Tools and Libraries:** You’re required to use Next.js for the web app in addition to any open-source components, libraries, or AI tools you prefer.
-- **Support:** If you have any questions during the implementation, don’t hesitate to reach out to [hiring@capix.ai](mailto:hiring@capix.ai).
+- **Support:** If you have any questions during the implementation, don’t hesitate to reach out to [tech@capix.ai](mailto:tech@capix.ai).
 - **Submission:** Please create a PR against the `main` branch of this repo. We will share our feedback in the PR review.
 - **Feedbacks:** We understand that you’ve invested time and effort into this exercise, so we promise to provide feedback regardless of our hiring decision.
 - **Next steps:** If your solution passed initial review, the next steps will be a technical deep dive with our co-founder and head of engineering to go over your solution. This will provide us an opportunity to hear your thoughts, decisions and challenges you encountered.
