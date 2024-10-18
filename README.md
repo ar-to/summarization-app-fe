@@ -1,6 +1,6 @@
 # Capix Software Engineer Take-home Challenge
 
-Welcome to the Capix take-home challenge! We’re excited to see what you can build and hope you enjoy the process. In this exercise, you’ll create a full-stack web app that helps users quickly understand the content of files in a directory. You’ll have till **12 PM EST on Tuesday, Oct 22nd** to complete this, and we’re here to support you if any questions come up—just reach out to us at [tech@capix.ai](mailto:tech@capix.ai), we will do our best to respond to you promptly.
+Welcome to the Capix take-home challenge! We’re excited to see what you can build and hope you enjoy the process. In this exercise, you’ll create a full-stack web app that helps users quickly understand the content of files in a directory. You’ll have **2 days** to complete this, and we’re here to support you if any questions come up—just reach out to us at [tech@capix.ai](mailto:tech@capix.ai), we will do our best to respond to you promptly.
 
 ## **Project Overview**
 
