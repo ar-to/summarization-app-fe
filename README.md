@@ -49,7 +49,7 @@ We want to give you insight into how we’ll review your submission:
     2. Are there meaningful comments and documentation where necessary?
 4. **Scalability and Security (10%)**
     1. Did you consider scalability in your implementation (e.g., handling large uploads)?
-    2. Are there appropriate security measures in place (e.g., authentication, file validation)?
+    2. Are there appropriate security measures in place (e.g. file validation)?
 
 ## **Important Notes**
 
