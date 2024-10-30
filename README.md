@@ -98,6 +98,16 @@ Use the `samples` directory in this repo for quick tests or provide your own. Th
 
 ### Notes About This Solution
 
+I deliberately left logs as this project felt close to a prototype than production ready. Did not see that explicit in the requirements so I kept it flexible. That said with some tweaks this could be released live fairly easy/quick.
+
+I picked https://strapi.io/ over using a cloud provider for sake of simplicity, speed and i happened to find a simple example that I liked. Plus I'm a fan of headless CMSs so wanted to try this one.
+
+The use of https://ai.google.dev/gemini-api was also a bit arbitrary and coincidental and I had no preference except I do enjoy how fast it was to use via Google docs. 
+
+Felt pretty good about the feature completion but did end up making a custom file manager to try and satisfy a few requirements. Could not find a ready made solution that kept it simple and free so this was my best attempt. 
+
+I did attempt uploading files rather than just submitting text but I did not see much benefit at this stage and given that the requirements favored text it made sense. A likely improvement is to move to a vector db for more performance and to scale if this is to be taken further. 
+
 Below are my notes on the requirements.
 
 #### **Requirements**

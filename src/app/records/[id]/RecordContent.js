@@ -63,7 +63,6 @@ export default function RecordContent({ id }) {
 
   function sendToAPI({ method, documentId, text }) {
     fetch("/api/records/", {
-      // method: "PUT",
       method,
       headers: {
         "Content-Type": "application/json"
@@ -79,8 +78,6 @@ export default function RecordContent({ id }) {
       .then((data) => {
         if (data.success) {
           if (data.deleted) {
-            // redirect to home
-            // window.location.href = "/";
             setRecord(null)
             setRecordDeleted(true)
           }
