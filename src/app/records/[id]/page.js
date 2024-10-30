@@ -2,7 +2,9 @@ import { Suspense } from "react";
 import Link from "next/link";
 import RecordContent from "./RecordContent";
 
-export default function RecordsPage({ params }) {
+export default async function RecordsPage({ params }) {
+    // asynchronous access of `params.id`.
+    const { id } = await params
   return (
     <div className="min-h-screen bg-[#32324d] py-8 text-white">
       <div className="max-w-4xl mx-auto px-4">
@@ -14,7 +16,7 @@ export default function RecordsPage({ params }) {
         </Link>
 
         <Suspense fallback={<div>Loading...</div>}>
-          <RecordContent id={params.id} />
+          <RecordContent id={id} />
         </Suspense>
       </div>
     </div>
