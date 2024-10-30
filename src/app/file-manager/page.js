@@ -171,7 +171,13 @@ const buildParsedPaths = (paths) => {
   };
 
   paths.forEach((path) => {
-    const pathParts = path.path.split("/");
+    // catches null paths avoiding errors
+    let pathTemp = path.path;
+    if (!pathTemp) {
+      pathTemp = ""
+    }
+    const pathParts = pathTemp.split("/");
+    // const pathParts = path.path.split("/");
     let currentFolder = parsedPaths;
 
     for (let i = 1; i < pathParts.length; i++) {
