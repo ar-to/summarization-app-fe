@@ -72,16 +72,29 @@ npm run develop
 ```
 Opens http://localhost:1337/admin and create account. This sets it locally to project via sqlite db.
 
-2. Run the NextJs app in this repo.
+2. Create a API key for Google Gemini
+Visit https://aistudio.google.com/app/apikey. 
+```shell
+ root .env of this project
+API_KEY=AI...
+```
+
+3. Run the NextJs app in this repo.
 ```shell
 npm run dev
 ```
 Opens http://localhost:3000/ where you can start clicking around the navigation.
 
-3. Create Content Type Collection inside Strapi for Records
-4. Upload Files and Folders
+4. Create Content Type Collection inside Strapi for Records
+5. Upload Files and Folders
 Use the `samples` directory in this repo for quick tests or provide your own. They stay locally to the db.
-5. Try Records and File Manager Pages
+6. Try Records and File Manager Pages
+
+#### Other Resources
+- https://strapi.io/blog/build-a-pdf-summarizer-in-nextjs-using-gemini-pdfjs-and-strapi - inspiration and borrowed some styles and early code
+- https://ai.google.dev/pricing#1_5flash gemini pricing
+- https://cloudconvert.com/pdf-to-txt
+- https://nextjs.org/docs/14/app/building-your-application/routing/defining-routes uses app router e.g. app/test/page.js → http://localhost:3000/test
 
 ### Notes About This Solution
 
