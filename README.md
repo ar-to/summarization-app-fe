@@ -7,9 +7,11 @@ Use npm or [pnpm](https://pnpm.io/cli/add), the latter may be better for install
 Setup, Run backend via https://github.com/ar-to/strapi-backend or use deployed version from Railway.app.
 
 ```shell
+pnpm install
 #.env
-API_KEY=@https://aistudio.google.com/app/apikey
-NEXT_PUBLIC_STRAPI_URL=from_backend
+touch .env.local
+echo "API_KEY=@https://aistudio.google.com/app/apikey" >> .env.local
+echo "NEXT_PUBLIC_STRAPI_URL=from_backend" >> .env.local
 ```
 
 ## Getting Started
