@@ -1,5 +1,17 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Setup
+
+Use npm or [pnpm](https://pnpm.io/cli/add), the latter may be better for installing packages.
+
+Setup, Run backend via https://github.com/ar-to/strapi-backend or use deployed version from Railway.app.
+
+```shell
+#.env
+API_KEY=@https://aistudio.google.com/app/apikey
+NEXT_PUBLIC_STRAPI_URL=from_backend
+```
+
 ## Getting Started
 
 First, run the development server:
