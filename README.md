@@ -1,3 +1,11 @@
+# Summarization APP Frontend
+
+<img width="1001" alt="Screenshot 2024-11-14 at 5 11 53 PM" src="https://github.com/user-attachments/assets/b318f0f8-6ae5-41fc-be86-e682cb6442b5">
+
+
+<img width="925" alt="Screenshot 2024-11-14 at 5 04 46 PM" src="https://github.com/user-attachments/assets/6365b912-8d3a-4df0-a582-556f55a2c75d">
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Setup
