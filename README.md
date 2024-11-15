@@ -1,4 +1,10 @@
 # Summarization APP Frontend
+![GitHub package.json version](https://img.shields.io/github/package-json/v/ar-to/strapi-backend)
+![GitHub package.json prod dependency version](https://img.shields.io/github/package-json/dependency-version/ar-to/summarization-app-fe/next)
+![GitHub package.json prod dependency version](https://img.shields.io/github/package-json/dependency-version/ar-to/summarization-app-fe/%40google%2Fgenerative-ai)
+![GitHub package.json prod dependency version](https://img.shields.io/github/package-json/dependency-version/ar-to/summarization-app-fe/react)
+
+
 
 <img width="1001" alt="Screenshot 2024-11-14 at 5 11 53 PM" src="https://github.com/user-attachments/assets/b318f0f8-6ae5-41fc-be86-e682cb6442b5">
 
